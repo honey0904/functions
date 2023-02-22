@@ -1,0 +1,24 @@
+#include<stdio.h>
+void sum();
+void main(){
+      sum();
+}
+void sum(){
+      int cube,num,i;
+      for(i=0;i<3;i++){
+            printf("Enter number : ");
+            scanf("%d",&num);
+            cube = num*num*num;
+            printf("The cube of %d is : %d\n",num,cube); 
+}
+printf("Thank you!!");
+}
+
+OUTPUT :
+Enter number : 3
+The cube of 3 is : 27
+Enter number : 89
+The cube of 89 is : 704969
+Enter number : 12 
+The cube of 12 is : 1728
+Thank you!!
