@@ -1,0 +1,25 @@
+#include<stdio.h>
+void sum();
+void main(){
+      sum();
+}
+void sum(){
+      int num,i;
+      for(i=1;i<=3;i++){
+            printf("Enter a limit of cubes : ");
+            scanf("%d",&num);
+            for(i=0;i<num;i++){
+                  printf("The cube of %d is : %d\n",i,i*i*i); 
+            }
+}
+printf("Thank you!!");
+}
+
+OUTPUT : Enter a limit of cubes : 6
+The cube of 0 is : 0
+The cube of 1 is : 1
+The cube of 2 is : 8
+The cube of 3 is : 27
+The cube of 4 is : 64
+The cube of 5 is : 125
+Thank you!!
