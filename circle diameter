@@ -1,0 +1,30 @@
+#include<stdio.h>
+int area();
+int main(){
+      area();
+      return 0;
+}
+int area(){
+      float diameter,ar,radius,i;
+      for(i=1;i<=3;i++){
+            printf("Enter the radius of circle : ");
+            scanf("%f",&radius);
+            ar = 3.14*radius*radius;
+            printf("the area of circle is : %f\n ",ar);
+            diameter = radius*2;
+            printf("The diameter of the circle is : %f\n",diameter);
+
+            }
+            printf("Thank you!!");
+}
+
+OUTPUT:
+Enter the radius of circle : 3the area of circle is : 28.260000
+ The diameter of the circle is : 6.000000
+Enter the radius of circle : 89
+the area of circle is : 24871.939453
+ The diameter of the circle is : 178.000000
+Enter the radius of circle : 56
+the area of circle is : 9847.040039
+ The diameter of the circle is : 112.000000
+Thank you!!
